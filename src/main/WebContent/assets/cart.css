@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,900&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    height: 100%;
+}
+:root{
+    --text-color: #70707B;
+    --main-color: #EFD4A9;
+}
+section{
+    padding: 50px 10%;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #ededed;
+}
+.logo{
+    font-size: 1.2rem;
+    font-size: 600;
+    color: var(--text-color);
+}
+.logo span{
+    color: var(--main-color);
+}
+.navbar{
+    position: relative;
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+#btn-user{
+	color: #492D25;
+}
+#btn-cart{
+	color: #492D25;
+}
+.btn-header{
+    position: relative;
+    font-size: 20px;
+    color: #492D25;
+}
+#btn-cart .btn-badge{
+    color: red;
+    background-color: yellow;
+    font-size: 15px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding-inline: 6px;
+    border-radius: 50%;
+}
+.btn-header a:hover{
+    color: var(--main-color);
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    background: #706966CF;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    left: 0;
+    top: 100%;
+    right: 0;
+    position: absolute;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+body{
+	padding-top: 5%;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 30%;
+	background-color: #9B461C2B;
+}
+.cart-page{
+	margin: 80px 20px 20px 20px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 20px 10px 20px;
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background: #9B461C;
+	font-weight: normal;
+}
+td:last-child{
+	text-align: center;
+}
+td{
+	padding:  10px 20px 10px 20px;
+	
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: #9B461C;
+	font-size: 12px;
+}
+td img{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px; 
+}
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+}
+.total-price table{
+	border: none;
+	width: 100%;
+	max-width: 600px;
+}
+.tr-item{
+	 border-bottom: 1px solid black;
+	 margin-bottom: 10px;
+
+}
+.btn{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	border-radius: 20px;
+	border: none;
+	background-color: #886241;
+	color: #fff;
+	margin: auto
+}
+
+.small-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.btn-quality{
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: #886241 !important;
+	color: #fff;
+	
+}
+th:first-child{
+	padding-left: 40px;
+}
+th:last-child{
+	text-align: center;
+}
+*{
+				font-family:  'Mulish', sans-serif;
+			}
+			#btn-user:hover{
+				color: #EFD4A9;
+			}
+        	#btn-user{
+				color: white;
+			}
+			#btn-cart:hover{
+				color: #EFD4A9;
+			}
+			#btn-cart{
+				color:white;
+			}
+			#btn-logout:hover{
+				color: #EFD4A9;
+			}
+			#btn-logout{
+				color:white;
+			}
+			.navbar a{
+				color: #fff;
+				font-size: 15px;
+			}
+			.navbar i{
+				font-size:20px;
+			}
+			.logo{
+				color: #fff;
+				font-family: 'MonteCarlo', cursive;
+				font-size: 25px;
+			}
+			footer{
+				background-color: #7D6A55;
+			}
+			.username{
+	position: absolute;
+	right:150px;
+	
+	color:#EFD4A9
+}a:hover{
+	color:#EFD4A9 !important;
+}
